@@ -53,6 +53,5 @@ pip install -r requirements.txt
 
 ### 4. Run the Application
 ```bash
-export FLASK_APP=app.py
-flask run
+python app.py
 ```
