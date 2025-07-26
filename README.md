@@ -48,7 +48,7 @@ source venv/bin/activate
 
 ### 3. Install Dependencies
 ```bash
-pip install flask flask_sqlalchemy
+pip install -r requirements.txt
 ```
 
 ### 4. Run the Application
