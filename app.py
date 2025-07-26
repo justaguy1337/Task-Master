@@ -1,7 +1,7 @@
 from flask import Flask, request, redirect, render_template
 from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy import func
-from datetime import datetime, timezone
+from datetime import datetime
 import os
 
 
