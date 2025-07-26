@@ -25,3 +25,33 @@ It helps users manage daily tasks — add, update, and delete them in a clean, r
 - **Jinja2 Templates**
 - **SQLite** (local DB)
 - **HTML5 + CSS3** (no JS frameworks needed)
+
+---
+
+## 📦 Installation
+
+Follow these steps to set up and run the project on your local machine:
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/justaguy1337/Task-Master.git
+cd Task-Master
+```
+
+### 2. Create a Virtual Environment
+
+```bash
+python -m venv venv
+source venv/bin/activate
+```
+
+### 3. Install Dependencies
+```bash
+pip install flask flask_sqlalchemy
+```
+
+### 4. Run the Application
+```bash
+python app.py
+```
